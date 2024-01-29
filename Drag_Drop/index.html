@@ -1,0 +1,23 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Drag and Drop Task Management</title>
+</head>
+<body>
+  <div id="toDo" class="board" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <h3>To Do</h3>
+  </div>
+  <div id="inProgress" class="board" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <h3>In Progress</h3>
+  </div>
+  <div id="done" class="board" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <h3>Done</h3>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>

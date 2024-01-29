@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .board {
+    width: 300px;
+    margin: 10px;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 300px;
+  }
+  
+  .task {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: move; /* Indicates a draggable object */
+  }
+  
